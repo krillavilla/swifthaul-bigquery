@@ -1,0 +1,11 @@
+# Never commit credentials or local data copies
+*.json
+!package.json
+.env
+*.key
+*.pem
+credentials*
+data/
+*.csv
+*.csv.gz
+.DS_Store
